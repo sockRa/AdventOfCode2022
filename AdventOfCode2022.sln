@@ -1,6 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{8B3A0532-5D76-49DE-9FFB-177913D92441}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1.Tests", "Day1.Tests\Day1.Tests.csproj", "{31ADE2AB-58AA-4F3D-A702-DDE8007FC486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{775FC2CF-366A-4AEE-B9B4-AD6906C7CD3B}"
+	ProjectSection(SolutionItems) = preProject
+		Input\Day1_part1.txt = Input\Day1_part1.txt
+		Input\Day1_part2.txt = Input\Day1_part2.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{6580941B-A847-44DD-8513-1B223ECA8547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Tests", "Utils.Tests\Utils.Tests.csproj", "{1CC9DBA0-A319-4CCE-9912-6661DAD8A079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +18,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B3A0532-5D76-49DE-9FFB-177913D92441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B3A0532-5D76-49DE-9FFB-177913D92441}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B3A0532-5D76-49DE-9FFB-177913D92441}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B3A0532-5D76-49DE-9FFB-177913D92441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ADE2AB-58AA-4F3D-A702-DDE8007FC486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ADE2AB-58AA-4F3D-A702-DDE8007FC486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ADE2AB-58AA-4F3D-A702-DDE8007FC486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ADE2AB-58AA-4F3D-A702-DDE8007FC486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6580941B-A847-44DD-8513-1B223ECA8547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6580941B-A847-44DD-8513-1B223ECA8547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6580941B-A847-44DD-8513-1B223ECA8547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6580941B-A847-44DD-8513-1B223ECA8547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC9DBA0-A319-4CCE-9912-6661DAD8A079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC9DBA0-A319-4CCE-9912-6661DAD8A079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC9DBA0-A319-4CCE-9912-6661DAD8A079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC9DBA0-A319-4CCE-9912-6661DAD8A079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
